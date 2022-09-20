@@ -1,0 +1,10 @@
+Query Parameters
+
+http://127.0.0.1:5500/04.Aula/cadastro.html
+
+?campoNome=ghjn
+&campoEmail=pauloantonio785%40gmail.com
+&campoSenha=1222&campoProfissao=professor
+&campoIdioma=ingles&campoResumo=ggfhrfgh+fgjhfgjhfghfghghrthrthtrhrth&concordaTermos=on
+
+http://127.0.0.1:5500/04.Aula/cadastro.html?campoNome=ghrg+fghgfh&campoEmail=pauloantonio785%40gmail.com&campoSenha=15432735&campoProfissao=professor&campoEspanhol=espanhol&campoResumo=jmktde+dfjnsrj+eryeryeryeryeryq&concordaTermos=on

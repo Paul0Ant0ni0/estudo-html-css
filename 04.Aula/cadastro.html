@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pet">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <form> <!-- Container de inputs -->
+
+        <fieldset>
+            <legend>Cadastro</legend>
+
+            <div>
+
+                <!-- Rótulo do campo (dá um nome)-->
+                <label for="campoNome" >Nome completo: </label><br><!-- for no label e o id para o input que está relacionado-->
+                <!-- Campo de entrada de dados-->
+                <!-- Placeholder = dica p/ usuário-->
+                <!-- required = obrigatório-->
+                <input type="text" name="campoNome" placeholder="Ex: Amanda Pereira" required>
+            </div>
+            
+            <div>
+                <label for="campoEmail">Email: </label><br>
+                <input id="campoEmail" name="campoEmail" type="email" 
+                placeholder="usuario@exemplo.com" required>
+            </div>
+
+            <div>
+                <label for="campoSenha">Senha: </label><br>
+                <input type="password" name="campoSenha" id="campoSenha"
+                placeholder="123456" required>
+
+
+            </div>
+
+            <div>
+
+                <label for="campoProfissao">Profissão: </label><br>
+                <!-- Caixa de seleção c/ opções-->
+                <select name="campoProfissao" id="campoProfissao">
+                    <option selected disabled value="">Selecione uma opção   </option><!-- Todas as option tem que ter um value-->
+                    <option value="professor">Professor</option>
+                    <option value="tecnico">Técnico</option>
+                    <option value="especialista">Especialista</option>
+        
+                </select>
+
+            </div>
+
+            <div>
+
+                <label for="">Idioma nativo:</label><br>
+                <!-- Usuário seleciona uma única opçõa-->
+                <input type="radio" name="campoIdioma" value="ingles" id="checkIngles">
+                <label for="checkIngles">Inglês</label>
+
+                <input type="radio" name="campoIdioma" value="espanhol" id="checkEspanhol">
+                <label for="checkEspanhol">Espanhol</label>
+
+                <input type="radio" name="campoIdioma" value="portugues" id="checkPortugues">
+                <label for="checkPortugues">Português</label>
+
+            </div>
+
+            <div>
+
+                <label for="campoResumo">Fale sobre você: </label><br>
+                <textarea name="campoResumo" id="campoResumo" minlength="10" maxlength="128" 
+                placeholder="Descreva a sua profissão" cols="25" rows="10"></textarea>
+
+            </div>
+
+
+            <div>
+
+                <input type="checkbox" name="concordaTermos" id="checkTermos" required>
+                <label for="checkTermos">Concorda com os termos do serviço</label>
+
+            </div>
+
+            <hr>
+            <button type="submit">Enviar</button> <!-- SUBMETER (SUBMIT) -->
+            <button type="reset">Limpar</button>
+            <button type="button" onclick="alert('Olá')">Outra opção</button>
+
+         
+        </fieldset>
+
+    </form>
+
+
+</body>
+</html>
