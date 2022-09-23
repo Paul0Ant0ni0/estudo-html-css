@@ -5,11 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
+    <header>
+        <p id="title">BRASILEIRO SÉRIE A</p>
+    </header>
+
     <main>
-        <h1>Exercício HTML</h1>
+        <div hidden>
+            <h1>Exercício HTML</h1>
 
         <ol type="1">
             <li>Inspirado em <a href="https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/" target="_blank">https://www.gazetaesportiva.com/campeonatos/brasileiro-serie-a/</a>
@@ -19,10 +25,13 @@
             <li>Desafio: Use da mesclagem de linhas para definir as zonas de libertadores, copa sul-americana e rebaixamento.</li>
         </ol>
 
+        </div>
+        
+
 
         <section>
 
-            <table border="1" align="center" cellpadding="5" style="border-collapse: collapse; font-family: Open Sans,Helvetica,Arial,sans-serif; ">
+            <table>
                 <thead>
                     <tr> <!-- Table Row -->
                     <th>#</th>
@@ -41,10 +50,10 @@
                 </thead>
 
                 <tbody>
-                    <tr style="color: green;">
+                    <tr class="times-green">
 
                         <td>1</td>
-                        <td><img src="./img/img1.jpg" alt="teste" width="20"> <a href="#" style="color: green; text-decoration: none;">PALMEIRAS</a> </td>
+                        <td><img src="./img/img1.jpg" alt="teste" width="20"> <a href="#" class="times-green">PALMEIRAS</a> </td>
                         <td>57</td>
                         <td>27</td>
                         <td>16</td>
@@ -55,10 +64,10 @@
                         <td>25</td>
                         <td>70</td>
                     </tr>
-                    <tr style="color: green;">
+                    <tr class="times-green">
 
                         <td>2</td>
-                        <td><img src="./img/img2.jpg" alt="teste" width="20"><a href="#" style="color: green; text-decoration: none;">FLUMINENSE</a> </td>
+                        <td><img src="./img/img2.jpg" alt="teste" width="20"><a href="#" class="times-green">FLUMINENSE</a> </td>
                         <td>48</td>
                         <td>27</td>
                         <td>14</td>
@@ -70,10 +79,10 @@
                         <td>59</td>
                         
                     </tr>
-                    <tr style="color: green;">
+                    <tr class="times-green">
 
                         <td>3</td>
-                        <td><img src="./img/img3.jpg" alt="teste" width="20"><a href="#" style="color: green; text-decoration: none;">INTERNACIONAL</a> </td>
+                        <td><img src="./img/img3.jpg" alt="teste" width="20"><a href="#" class="times-green">INTERNACIONAL</a> </td>
                         <td>46</td>
                         <td>26</td>
                         <td>12</td>
@@ -84,10 +93,10 @@
                         <td>16</td>
                         <td>59</td>
                     </tr>
-                    <tr style="color: green;">
+                    <tr class="times-green">
 
                         <td>4</td>
-                        <td><img src="./img/img4.jpg" alt="teste" width="20"><a href="#" style="color: green; text-decoration: none;">FLAMENGO</a> </td>
+                        <td><img src="./img/img4.jpg" alt="teste" width="20"><a href="#" class="times-green">FLAMENGO</a> </td>
                         <td>45</td>
                         <td>27</td>
                         <td>13</td>
@@ -98,10 +107,10 @@
                         <td>18</td>
                         <td>56</td>
                     </tr>
-                    <tr style="color: green;">
+                    <tr class="times-green">
 
                         <td>5</td>
-                        <td><img src="./img/img5.jpg" alt="teste" width="20"><a href="#" style="color: green; text-decoration: none;">CORINTHIANS</a> </td>
+                        <td><img src="./img/img5.jpg" alt="teste" width="20"><a href="#" class="times-green">CORINTHIANS</a> </td>
                         <td>44</td>
                         <td>27</td>
                         <td>12</td>
@@ -112,9 +121,9 @@
                         <td>4</td>
                         <td>54</td>
                     </tr>
-                    <tr style="color: green;">
+                    <tr class="times-green">
                         <td>6</td>
-                        <td><img src="./img/img6.jpg" alt="teste" width="20"><a href="#" style="color: green; text-decoration: none;">ATHLETICO-PR</a> </td>
+                        <td><img src="./img/img6.jpg" alt="teste" width="20"><a href="#" class="times-green">ATHLETICO-PR</a> </td>
                         <td>44</td>
                         <td>27</td>
                         <td>12</td>
@@ -125,9 +134,9 @@
                         <td>2</td>
                         <td>54</td>
                     </tr>
-                    <tr style="color: orange;">
+                    <tr class="times-orange">
                         <td>7</td>
-                        <td><img src="./img/img7.jpg" alt="teste" width="20"><a href="#" style="color: orange; text-decoration: none;">ATLÉTICO-MG</a> </td>
+                        <td><img src="./img/img7.jpg" alt="teste" width="20"><a href="#" class="times-orange">ATLÉTICO-MG</a> </td>
                         <td>40</td>
                         <td>27</td>
                         <td>10</td>
@@ -138,10 +147,10 @@
                         <td>4</td>
                         <td>49</td>
                     </tr>
-                    <tr style="color: orange;">
+                    <tr class="times-orange">
 
                         <td>8</td>
-                        <td><img src="./img/img8.jpg" alt="teste" width="20"><a href="#" style="color: orange; text-decoration: none;">AMÉRICA-MG</a> </td>
+                        <td><img src="./img/img8.jpg" alt="teste" width="20"><a href="#" class="times-orange">AMÉRICA-MG</a> </td>
                         <td>39</td>
                         <td>27</td>
                         <td>11</td>
@@ -152,10 +161,10 @@
                         <td>-2</td>
                         <td>48</td>
                     </tr>
-                    <tr style="color: orange;">
+                    <tr class="times-orange">
 
                         <td>9</td>
-                        <td><img src="./img/img9.jpg" alt="teste" width="20"><a href="#" style="color: orange; text-decoration: none;">GOIÁS</a> </td>
+                        <td><img src="./img/img9.jpg" alt="teste" width="20"><a href="#" class="times-orange">GOIÁS</a> </td>
                         <td>37</td>
                         <td>27</td>
                         <td>9</td>
@@ -166,10 +175,10 @@
                         <td>-3</td>
                         <td>46</td>
                     </tr>
-                    <tr style="color: orange;">
+                    <tr class="times-orange">
 
                         <td>10</td>
-                        <td><img src="./img/img10.jpg" alt="teste" width="20"><a href="#" style="color: orange; text-decoration: none;">BOTAFOGO</a> </td></td>
+                        <td><img src="./img/img10.jpg" alt="teste" width="20"><a href="#" class="times-orange">BOTAFOGO</a> </td></td>
                         <td>34</td>
                         <td>27</td>
                         <td>9</td>
@@ -181,10 +190,10 @@
                         <td>42</td>
                         
                     </tr>
-                    <tr style="color: orange;">
+                    <tr class="times-orange">
 
                         <td>11</td>
-                        <td><img src="./img/img11.jpg" alt="teste" width="20"><a href="#" style="color: orange; text-decoration: none;">SANTOS</a> </td>
+                        <td><img src="./img/img11.jpg" alt="teste" width="20"><a href="#" class="times-orange">SANTOS</a> </td>
                         <td>34</td>
                         <td>27</td>
                         <td>8</td>
@@ -195,10 +204,10 @@
                         <td>4</td>
                         <td>42</td>
                     </tr>
-                    <tr style="color: orange;">
+                    <tr class="times-orange">
 
                         <td>12</td>
-                        <td><img src="./img/img12.jpg" alt="teste" width="20"><a href="#" style="color: orange; text-decoration: none;">RED BULL BRAGANTINO</a> </td>
+                        <td><img src="./img/img12.jpg" alt="teste" width="20"><a href="#" class="times-orange">RED BULL BRAGANTINO</a> </td>
                         <td>34</td>
                         <td>27</td>
                         <td>8</td>
@@ -211,7 +220,7 @@
                     </tr>
                     <tr>
                         <td>13</td>
-                        <td><img src="./img/img13.jpg" alt="teste" width="20"><a href="#" style="color: black; text-decoration: none;">SÃO PAULO</a> </td>
+                        <td><img src="./img/img13.jpg" alt="teste" width="20"><a href="#" class="times-black">SÃO PAULO</a> </td>
                         <td>34</td>
                         <td>27</td>
                         <td>7</td>
@@ -224,7 +233,7 @@
                     </tr>
                     <tr>
                         <td>14</td>
-                        <td><img src="./img/img14.jpg" alt="teste" width="20"><a href="#"style="color: black; text-decoration: none;">FORTALEZA</a> </td>
+                        <td><img src="./img/img14.jpg" alt="teste" width="20"><a href="#"class="times-black">FORTALEZA</a> </td>
                         <td>31</td>
                         <td>27</td>
                         <td>8</td>
@@ -237,7 +246,7 @@
                     </tr>
                     <tr>
                         <td>15</td>
-                        <td><img src="./img/img15.jpg" alt="teste" width="20"><a href="#" style="color: black; text-decoration: none;">CEARÁ</a> </td>
+                        <td><img src="./img/img15.jpg" alt="teste" width="20"><a href="#" class="times-black">CEARÁ</a> </td>
                         <td>31</td>
                         <td>27</td>
                         <td>6</td>
@@ -250,7 +259,7 @@
                     </tr>
                     <tr>
                         <td>16</td>
-                        <td><img src="./img/img16.jpg" alt="teste" width="20"><a href="#" style="color: black; text-decoration: none;">CORITIBA</a> </td>
+                        <td><img src="./img/img16.jpg" alt="teste" width="20"><a href="#" class="times-black">CORITIBA</a> </td>
                         <td>28</td>
                         <td>27</td>
                         <td>8</td>
@@ -263,7 +272,7 @@
                     </tr>
                     <tr style="color: red;">
                         <td>17</td>
-                        <td><img src="./img/img17.jpg" alt="teste" width="20"><a href="#" style="color: red; text-decoration: none;">AVAÍ</a> </td>
+                        <td><img src="./img/img17.jpg" alt="teste" width="20"><a href="#" class="times-red">AVAÍ</a> </td>
                         <td>28</td>
                         <td>27</td>
                         <td>7</td>
@@ -276,7 +285,7 @@
                     </tr>
                     <tr style="color: red;">
                         <td>18</td>
-                        <td><img src="./img/img18.jpg" alt="teste" width="20"><a href="#" style="color: red; text-decoration: none;">CUIABÁ</a> </td>
+                        <td><img src="./img/img18.jpg" alt="teste" width="20"><a href="#" class="times-red">CUIABÁ</a> </td>
                         <td>27</td>
                         <td>27</td>
                         <td>6</td>
@@ -289,7 +298,7 @@
                     </tr>
                     <tr style="color: red;">
                         <td>19</td>
-                        <td><img src="./img/img19.jpg" alt="teste" width="20"><a href="#" style="color: red; text-decoration: none;">ATLÉTICO-GO</a> </td>
+                        <td><img src="./img/img19.jpg" alt="teste" width="20"><a href="#" class="times-red">ATLÉTICO-GO</a> </td>
                         <td>22</td>
                         <td>26</td>
                         <td>5</td>
@@ -302,7 +311,7 @@
                     </tr>
                     <tr style="color: red;">
                         <td>20</td>
-                        <td><img src="./img/img20.jpg" alt="teste" width="20"><a href="#" style="color: red; text-decoration: none;">JUVENTUDE</a> </td>
+                        <td><img src="./img/img20.jpg" alt="teste" width="20"><a href="#" class="times-red">JUVENTUDE</a> </td>
                         <td>19</td>
                         <td>27</td>
                         <td>3</td>
