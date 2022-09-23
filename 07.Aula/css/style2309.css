@@ -1,0 +1,120 @@
+*{
+    /*
+    Garante que o elemento respeitem
+    as dimensões quando possuem padding e border.
+    */
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    text-align: center;
+    animation-name: example;
+    animation-duration: 30s;
+}
+
+
+@keyframes example {
+    from {background-color: rgb(0, 0, 0);filter: contrast(500%); color: white;}
+    to {background-color: rgb(233, 206, 255);}
+}
+
+
+.my-button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    /*<vertical> <horizonta>*/
+    padding: 16px 24px;
+    margin: 6px 4px;
+    /*Icone de clique*/
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.my-button:hover {
+    background-color: rgba(255, 0, 0, 0);
+    color: #4caf50;
+    border: 0.5px solid #4caf50;
+    transition: 0.5s;
+    font-weight: 800;
+
+}
+
+
+.com-azul{
+    background-color: cornflowerblue;
+}
+
+
+.my-table{
+    width: 400px;
+    border-collapse: collapse;
+    /*Alinhar no centro*/
+    margin: auto;
+}
+
+/*Estiliza o td/th dentro de .my-table*/
+.my-table td, .my-table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.my-table th {
+    background-color: cornflowerblue;
+    padding: 12px 0;
+    color: white;
+}
+
+.my-table tr:hover{
+    background-color: #ddd;
+}
+
+
+/*even = par */
+/*Aplica o estilo ao tr de número par*/
+.my-table tr:nth-child(even){
+    background-color: #f2f2f2;
+
+}
+
+.my-table td {
+    text-align: center;/*left right justify*/
+    height: 50px;
+    
+}
+
+/*CUSTOM FROM*/
+
+.my-form {
+    border-radius: 6px;
+    background-color: #00000085;
+    padding: 20px 16px;
+    width: 300px;
+    margin: auto;
+    text-align: left;
+}
+
+.my-form input {
+    width: 100%;
+    padding: 12px 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-top: 3px;
+}
+
+.toda-largura {
+    width: 100%;
+    margin: 6px 0;
+}
+
+.my-form-group{
+    margin-bottom: 2px;
+}
+
+h3{
+    text-align: center;
+    background-color: red;
+}
