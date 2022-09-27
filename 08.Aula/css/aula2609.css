@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.box-1 {
+    background-color: cadetblue;
+    align-self: flex-end;
+    order: 0; /*Altera a ordem do elemento */
+}
+.box-2 {
+    background-color: chocolate;
+    height: 200px;
+}
+.box-3 {
+    background-color: tomato;
+    /* Para desnivelar comm align-self: precisa definir uma altura */
+    align-self: flex-start;
+}
+.box-4 {
+    background-color: steelblue;
+}
+
+.container-flex {
+    background-color: silver;
+    display: flex; /*Ativa o flexbox */
+    flex-direction: row; /*Distribuição vert(column)/hor(row) */
+    flex-wrap: wrap; /*Quebra a linha qunado não tem espaço */
+    /*Cuida dos elementos no eixo main/principal*/
+    /*center, space-around, space-between, space-evenly*/    
+    justify-content: center;
+    /*Cuida dos elementos no exio cross/cruzado */
+    /*stretch, center, flex-start, flex-end, baseline */
+    align-items: center;
+    /*Cuida do "conteúdo" do container - Manipula o espaçamento gerado pelo wrap */
+    align-content: center;
+    /*Espaçamento entre os elementos */
+    gap: 8px;
+    height: 350px;
+    
+}
+
+/* conatiner-flex-div */
+.box-1, .box-2, .box-3, .box-4 {
+    width: 300px;
+    padding: 8px;
+    border-radius: 8px;
+    /*Alinha apenas um elelemtno */
+    align-self: center;
+}
+
+.container-flex-2{
+    display: flex;
+    background-color: orange;
+    height: 200px;
+    flex-wrap: wrap;
+}
+
+.box-5{
+    background-color: brown;
+    flex: 1;
+}
+
+.box-6{
+    background-color: teal;
+    align-self: flex-end;
+    flex: 2;
+}
+
+.box-7{
+    background-color: yellow;
+    width: 400px;
+}
